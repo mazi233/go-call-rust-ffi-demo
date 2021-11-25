@@ -58,6 +58,9 @@ func PassStringBySinglePointer() {
 
 	testProc(2, "极客幼儿园是一个不错的微信公众号", "极客幼儿园")
 	testProc(2, "Datafuse Lab", "Datafuse Lab")
+
+	testProc(3, "极客幼儿园是一个不错的微信公众号", "极客幼儿园")
+	testProc(3, "Datafuse Lab", "Datafuse Lab")
 }
 
 func PassStringBySecondOrderPointer() {
